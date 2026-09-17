@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    mavenCentral() // Tells Gradle where to download JUnit from automatically
+}
+
+dependencies {
+    // Gradle downloads JUnit 5 automatically from mavenCentral
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.0'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+application {
+    mainClass = 'App'
+}
