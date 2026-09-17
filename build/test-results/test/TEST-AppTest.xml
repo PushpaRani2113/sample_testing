@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AppTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-09-17T10:58:55.210Z" hostname="TIGER07764" time="0.062">
+  <properties/>
+  <testcase name="Verify simple addition logic" classname="AppTest" time="0.055"/>
+  <testcase name="Verify that greeting is not null and returns expected string" classname="AppTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
