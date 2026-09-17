@@ -4,12 +4,17 @@ plugins {
 }
 
 repositories {
-    mavenCentral() // Tells Gradle where to download JUnit from automatically
+    mavenCentral()
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(25)
+    }
 }
 
 dependencies {
-    // Gradle downloads JUnit 5 automatically from mavenCentral
-    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.2'
 }
 
 test {
